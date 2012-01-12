@@ -57,4 +57,4 @@ Check out the following files for examples of the Divine Grid in action:
 
 ### Thanks
 
-Thanks to Harry Roberts of inuit.css, from which the Divine Grid draws heavy inspiration. Also, many thanks to Nicole Sullivan for pointing out the secret benefit of the overflow property and making the media object a common practice. Finally, thanks to Ethan Marcotte for teaching me everything I know about fluid grids and responsive design, and to Chuck Greene for teaching me about grids in general.
+Thanks to [Harry Roberts](http://www.csswizardry.com/), creator of inuit.css, from which the Divine Grid draws heavy inspiration. Also, many thanks to [Nicole Sullivan](http://www.stubbornella.org/) for pointing out the secret benefit of the overflow property and making the media object a common practice. Finally, thanks to [Ethan Marcotte](http://www.unstoppablerobotninja.com/) for teaching me everything I know about fluid grids and responsive design, and to [Chuck Greene](http://www.ideabook.com/tutorials/page_layout/the_grid_an_invisible_framewor.html) for teaching me about grids in general.
