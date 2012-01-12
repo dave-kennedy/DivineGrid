@@ -55,6 +55,21 @@ Check out the following files for examples of the Divine Grid in action:
 * demo.html -- This file shows a sample site using the Divine Framework. There are at least seven golden rectangles on the page. See if you can spot them all!
 * grid.html -- This file shows a simple six by six grid made of golden rectangles.
 
+If you want to check out these files in your browser, make sure you also download the style.css file from the css directory as well as the image files in the img directory.
+
+### What other features does the Divine Grid support?
+
+As mentioned above, the Divine Grid is a responsive grid framework. If the user's browser is less than 988 pixels wide, all of the columns will stack vertically and fill any remaining horizontal space. Of course, this means that any golden rectangles on the page will lose their divinity.
+
+Finally, the Divine Grid comes with one additional class, which is the .media class. You can read all about the media object on [Nicole Sullivan's blog](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/). The media object should resemble the following markup:
+
+    <div class="media">
+		<img src="_Image source goes here_" class="img" />
+		<div class="bd">
+			_Text goes here_
+		</div>
+	</div>
+
 ### Thanks
 
 Thanks to [Harry Roberts](http://www.csswizardry.com/), creator of inuit.css, from which the Divine Grid draws heavy inspiration. Also, many thanks to [Nicole Sullivan](http://www.stubbornella.org/) for pointing out the secret benefit of the overflow property and making the media object a common practice. Finally, thanks to [Ethan Marcotte](http://www.unstoppablerobotninja.com/) for teaching me everything I know about fluid grids and responsive design, and to [Chuck Greene](http://www.ideabook.com/tutorials/page_layout/the_grid_an_invisible_framewor.html) for teaching me about grids in general.
