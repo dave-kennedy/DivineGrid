@@ -72,7 +72,7 @@ Finally, the Divine Grid comes with one additional class, which is the .media cl
 
 ### What about pixel rounding errors?
 
-Admittedly, there are some awful percentages involved here. However, most browsers do a bang up job rendering the grid accurately. The latest version of Chrome, in fact, is a perfect pixel-for-pixel match with the original grid, which you can see by downloading the grid.psd file from the psd directory. To see how accurately each of the latest browsers renders the grid, take a look at the following files:
+Admittedly, there are some pretty awful percentages involved here. However, most browsers do a bang up job rendering the grid accurately. The latest version of Chrome, in fact, is a perfect pixel-for-pixel match with the original grid, which you can see by downloading the grid.psd file from the psd directory. To see how accurately each of the latest browsers renders the grid, take a look at the following files:
 
 * grid-chrome.psd - Shows how accurately Chrome renders the grid
 * grid-ff.psd - Shows how accurately Firefox renders the grid
