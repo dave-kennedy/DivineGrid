@@ -14,20 +14,20 @@ The basic grid framework is 988 pixels wide and consists of six columns that are
 
 ### How do I use the Divine Grid?
 
-I. Download the grid.css file from the css directory and include it in your document.
+First. Download the grid.css file from the css directory and include it in your document.
 
-II. Apply a class of .container to the body element in your document.
+Second. Apply a class of .container to the body element in your document.
 
-III. Create a div element within the body element of your document. Apply a class of .columns to the div element you just created.
+Third. Create a div element within the body element of your document. Apply a class of .columns to the div element you just created.
 
-IV. Within the div element you just created, create a div element for each column you would like to fill with content. Each div can have one of the following classes:
+Fourth. Within the div element you just created, create a div element for each column you would like to fill with content. Each div can have one of the following classes:
 
 * .col-1 -- Spans one column
 * .col-2 -- Spans two columns
 * ...
 * .col-6 -- Spans six columns
 
-V. If you want to append columns to the right side of the div element, you can use any of the following classes:
+Fifth. If you want to append columns to the right side of the div element, you can use any of the following classes:
 
 * .app-1 -- Appends one column
 * .app-2 -- Appends two columns
@@ -43,7 +43,7 @@ Similarly, you can use any of the following classes to prepend columns to the le
 
 Nothing about the basic grid framework is divine until you:
 
-VI. Download the divine.js file from the js directory and include it in your document.
+Sixth. Download the divine.js file from the js directory and include it in your document.
 
 If you want to make any div element into a divine, or golden, rectangle, simply apply a class of .divine to the element. The jQuery script will calculate the height of the element by multiplying the width of the element by the divine proportion, also known as the golden ratio, which is approximately 1.618.
 
