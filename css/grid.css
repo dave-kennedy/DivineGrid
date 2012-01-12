@@ -1,0 +1,151 @@
+/*
+Body width: 988px
+Column width: 148px
+Horizontal gutter width: 20px
+No. columns: 6
+
+Body height: 611px
+Row height: 91px
+Vertical gutter height: 13px
+No. rows: 6
+
+Formula used to calculate percentages: parent x multiplier = target
+
+See http://www.alistapart.com/articles/fluidgrids/ for more information
+*/
+.container
+{
+	margin: 40px auto;
+	max-width: 61.75em; /* 16px x 61.75em = 988px */
+}
+.columns
+{
+	overflow: hidden;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6
+{
+	float: left;
+	margin-bottom: 1.315789473684210526315789473684%; /* 988px x 1.315789473684210526315789473684% = 13px */
+	margin-right: 2.024291497975708502024291497976%; /* 988px x 2.024291497975708502024291497976% = 20px */
+	min-height: 1.5em; /* 16px x 1.5em = 24px */
+}
+.columns > :last-child
+{
+	margin-right: 0;
+}
+.col-1 img,
+.col-2 img,
+.col-3 img,
+.col-4 img,
+.col-5 img,
+.col-6 img,
+.col-1 object,
+.col-2 object,
+.col-3 object,
+.col-4 object,
+.col-5 object,
+.col-6 object
+{
+    max-width: 100%;
+}
+.col-1
+{
+	width: 14.97975708502024291497975708502%; /* 988px x 14.97975708502024291497975708502% = 148px */
+}
+.col-2
+{
+	width: 31.983805668016194331983805668016%; /* 988px x 31.983805668016194331983805668016% = 316px */
+}
+.col-3
+{
+	width: 48.987854251012145748987854251012%; /* 988px x 48.987854251012145748987854251012% = 484px */
+}
+.col-4
+{
+	width: 65.991902834008097165991902834008%; /* 988px x 65.991902834008097165991902834008% = 652px */
+}
+.col-5
+{
+	width: 82.995951417004048582995951417004%; /* 988px x 82.995951417004048582995951417004% = 820px */
+}
+.col-6
+{
+	width: 100%; /* 988px x 100% = 988px */
+}
+.app-1
+{
+	margin-right: 19.028340080971659919028340080972%; /* 988px x 19.028340080971659919028340080972% = 188px */
+}
+.app-2
+{
+	margin-right: 36.032388663967611336032388663968%; /* 988px x 36.032388663967611336032388663968% = 356px */
+}
+.app-3
+{
+	margin-right: 53.036437246963562753036437246964%; /* 988px x 53.036437246963562753036437246964% = 524px */
+}
+.app-4
+{
+	margin-right: 70.04048582995951417004048582996%; /* 988px x 70.04048582995951417004048582996% = 692px */
+}
+.app-5
+{
+	margin-right: 85.02024291497975708502024291498%; /* 988px x 85.02024291497975708502024291498% = 840px */
+}
+.pre-1
+{
+	margin-left: 17.004048582995951417004048582996%; /* 988px x 17.004048582995951417004048582996% = 168px */
+}
+.pre-2
+{
+	margin-left: 34.008097165991902834008097165992%; /* 988px x 34.008097165991902834008097165992% = 336px */
+}
+.pre-3
+{
+	margin-left: 51.012145748987854251012145748988%; /* 988px x 51.012145748987854251012145748988% = 504px */
+}
+.pre-4
+{
+	margin-left: 68.016194331983805668016194331984%; /* 988px x 68.016194331983805668016194331984% = 672px */
+}
+.pre-5
+{
+	margin-left: 85.02024291497975708502024291498%; /* 988px x 85.02024291497975708502024291498% = 840px */
+}
+.media
+{
+	margin-bottom: 0.8125em; /* 16px x 0.8125em = 13px */
+}
+.media .img
+{
+	float: left;
+	height: 50px;
+	margin: 0.8125em; /* 16px x 0.8125em = 13px */
+	width: 50px;
+}
+.media .bd
+{
+	margin: 0.8125em; /* 16px x 0.8125em = 13px */
+	overflow: hidden;
+}
+.media:last-child
+{
+	margin-bottom: 0;
+}
+@media (max-width: 988px) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6
+	{
+		float: none;
+		width: 100%;
+	}
+}

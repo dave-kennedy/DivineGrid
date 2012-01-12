@@ -1,0 +1,53 @@
+html
+{
+	font-family: arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: times, serif;
+	font-weight: bold;
+}
+h1
+{
+	font-size: 2em; /* 16px x 2em = 32px */
+}
+h2
+{
+	font-size: 1.5em; /* 16px x 1.5em = 24px */
+}
+h3
+{
+	font-size: 1.25em; /* 16px x 1.25em = 20px */
+}
+h4
+{
+	font-size: 1em; /* 16px x 1em = 16px */
+}
+h5
+{
+	font-size: 0.875em; /* 16px x 0.875em = 14px */
+}
+h6
+{
+	font-size: 0.75em; /* 16px x 0.75em = 12px */
+}
+.warning
+{
+	background-color: #fee;
+	color: #900;
+}
+.success
+{
+	background-color: #efe;
+	color: #090;
+}
+.notice
+{
+	background-color: #eef;
+	color: #009;
+}
