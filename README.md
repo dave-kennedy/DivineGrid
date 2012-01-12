@@ -55,7 +55,7 @@ Check out the following files for examples of the Divine Grid in action:
 * demo.html -- This file shows a sample site using the Divine Framework. There are at least seven golden rectangles on the page. See if you can spot them all!
 * grid.html -- This file shows a simple six by six grid made of golden rectangles.
 
-If you want to check out these files in your browser, make sure you also download the style.css file from the css directory as well as the image files in the img directory.
+If you want to open these files in your browser, make sure you also download the style.css file from the css directory as well as the image files in the img directory.
 
 ### What other features does the Divine Grid support?
 
@@ -64,11 +64,19 @@ As mentioned above, the Divine Grid is a responsive grid framework. If the user'
 Finally, the Divine Grid comes with one additional class, which is the .media class. You can read all about the media object on [Nicole Sullivan's blog](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/). The media object should resemble the following markup:
 
     <div class="media">
-		<img src="_Image source goes here_" class="img" />
+		<img src="[Image source goes here]" class="img" />
 		<div class="bd">
-			_Text goes here_
+			[Text goes here]
 		</div>
 	</div>
+
+### What about pixel rounding errors?
+
+Admittedly, there are some awful percentages involved here. However, most browsers do a bang up job rendering the grid accurately. The latest version of Chrome, in fact, is a perfect pixel-for-pixel match with the original grid, which you can see by downloading the grid.psd file from the psd directory. To see how accurately each of the latest browsers renders the grid, take a look at the following files:
+
+* grid-chrome.psd - Shows how accurately Chrome renders the grid
+* grid-ff.psd - Shows how accurately Firefox renders the grid
+* grid-ie.psd - Shows how accurately Internet Explorer renders the grid
 
 ### Thanks
 
