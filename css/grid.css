@@ -146,6 +146,8 @@ See http://www.alistapart.com/articles/fluidgrids/ for more information
 	.col-6
 	{
 		float: none;
+		margin-bottom: 0.8125em; /* 16px x 0.8125em = 13px */
+		margin-right: 0;
 		width: 100%;
 	}
 }
