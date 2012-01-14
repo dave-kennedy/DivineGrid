@@ -10,7 +10,7 @@ It is extremely lightweight, requiring only a small amount of additional markup 
 
 ### What are the dimensions?
 
-The basic grid framework is 988 pixels wide and consists of six columns that are 148 pixels wide each plus a gutter that is 20 pixels wide on the right.
+The basic grid framework is 988 pixels wide and consists of six columns that are 148 pixels wide each plus a gutter that is 20 pixels wide.
 
 ### How do I use the Divine Grid?
 
@@ -43,9 +43,9 @@ Similarly, you can use any of the following classes to prepend columns to the le
 
 Nothing about the basic grid framework is divine until you:
 
-**Step six:** Download the divine.js file from the js directory and include it in your document.
+**Step six:** Apply a class of .divine to a div element.
 
-If you want to make any div element into a divine, or golden, rectangle, simply apply a class of .divine to the element. The jQuery script will calculate the height of the element by multiplying the width of the element by the divine proportion, also known as the golden ratio, which is approximately 1.618.
+If you want to make any div element into a divine, or golden, rectangle, simply apply a class of .divine to the element. The height of the element is calculated by dividing the width of the element by the divine proportion, also known as the golden ratio, which is approximately 1.618.
 
 ### Where can I see examples of the Divine Grid?
 
@@ -69,14 +69,6 @@ Finally, the Divine Grid comes with one additional class, which is the .media cl
 			[Text goes here]
 		</div>
 	</div>
-
-### What about pixel rounding errors?
-
-Admittedly, there are some pretty awful percentages involved here. However, most browsers do a bang up job rendering the grid accurately. The latest version of Chrome, in fact, is a perfect pixel-for-pixel match with the original grid, which you can see by downloading the grid.psd file from the psd directory. To see how accurately each of the latest browsers renders the grid, take a look at the following files:
-
-* grid-chrome.psd - Shows how accurately Chrome renders the grid
-* grid-ff.psd - Shows how accurately Firefox renders the grid
-* grid-ie.psd - Shows how accurately Internet Explorer renders the grid
 
 ### Thanks
 
