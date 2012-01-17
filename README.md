@@ -27,7 +27,7 @@ The basic grid framework is 988 pixels wide and consists of six columns that are
 * ...
 * .col-6 -- Spans six columns
 
-**Step five:** If you want to append columns to the right side of the div element, you can use any of the following classes:
+If you want to append columns to the right side of the div element, you can use any of the following classes:
 
 * .app-1 -- Appends one column
 * .app-2 -- Appends two columns
@@ -43,7 +43,7 @@ Similarly, you can use any of the following classes to prepend columns to the le
 
 Nothing about the basic grid framework is divine until you:
 
-**Step six:** Apply a class of .divine to a div element.
+**Step five:** Apply a class of .divine to a div element.
 
 If you want to make any div element into a divine, or golden, rectangle, simply apply a class of .divine to the element. The height of the element is calculated by dividing the width of the element by the divine proportion, also known as the golden ratio, which is approximately 1.618.
 
