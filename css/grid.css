@@ -1,18 +1,9 @@
 /*
-Body width: 988px
-Column width: 148px
-Horizontal gutter width: 20px
-No. columns: 6
-
-Body height: 611px
-Row height: 91px
-Vertical gutter height: 13px
-No. rows: 6
-
-Formula used to calculate percentages: parent x multiplier = target
-
-See http://www.alistapart.com/articles/fluidgrids/ for more information
+Divine Grid
+by David Kennedy
+http://daveden.wordpress.com/
 */
+
 .container
 {
 	margin: 3.125em auto; /* 16px x 3.125em = 50px */
