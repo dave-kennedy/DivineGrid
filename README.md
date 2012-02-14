@@ -59,7 +59,7 @@ If you want to open these files in your browser, make sure you also download the
 
 ### What other features does the Divine Grid support?
 
-As mentioned above, the Divine Grid is a responsive grid framework. If the user's browser is less than 988 pixels wide, all of the columns will stack vertically and fill any remaining horizontal space. Of course, this means that any golden rectangles on the page will lose their divinity.
+As mentioned above, the Divine Grid is a responsive grid framework. If the user's browser is less than 988 pixels wide, the grid will shrink. If the user's browser falls below 865 pixels wide, all of the columns will stack vertically and fill any remaining horizontal space. Of course, this means that any golden rectangles on the page will lose their divinity.
 
 Finally, the Divine Grid comes with one additional class, which is the .media class. You can read all about the media object on [Nicole Sullivan's blog](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/). The media object should resemble the following markup:
 
