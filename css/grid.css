@@ -6,6 +6,7 @@ http://daveden.wordpress.com/
 
 .container
 {
+	font-size: 16px;
 	margin: 3.125em auto; /* 16px x 3.125em = 50px */
 	max-width: 61.75em; /* 16px x 61.75em = 988px */
 }
@@ -178,6 +179,18 @@ http://daveden.wordpress.com/
 	overflow: hidden;
 }
 @media (max-width: 988px) {
+	.container
+	{
+		font-size: 0.9375em; /* 16px x 0.9375em = 15px */
+	}
+}
+@media (max-width: 926px) {
+	.container
+	{
+		font-size: 0.875em; /* 16px x 0.875em = 14px */
+	}
+}
+@media (max-width: 865px) {
 	.col-1,
 	.col-2,
 	.col-3,
