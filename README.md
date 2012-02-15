@@ -57,6 +57,8 @@ Check out the following files for examples of the Divine Grid in action:
 
 If you want to open these files in your browser, make sure you also download the style.css file from the css directory as well as the image files in the img directory.
 
+Finally, have a gander at the [Divine Template](http://www.github.com/davidkennedy85/DivineTemplate) - a fluid, responsive CSS template based on the Divine Grid.
+
 ### What other features does the Divine Grid support?
 
 As mentioned above, the Divine Grid is a responsive grid framework. If the user's browser is less than 988 pixels wide, the grid will shrink. If the user's browser falls below 865 pixels wide, all of the columns will stack vertically and fill any remaining horizontal space. Of course, this means that any golden rectangles on the page will lose their divinity.
