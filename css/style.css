@@ -1,52 +1,64 @@
-html
+.container
 {
 	font-family: arial, sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p,
+.container ol,
+.container ul,
+.container li
+{
+	margin-bottom: 1em; /* Varies */
+}
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6
 {
 	font-family: times, serif;
-	font-weight: bold;
 }
-h1
+.container h1
 {
 	font-size: 2em; /* 16px x 2em = 32px */
 }
-h2
+.container h2
 {
 	font-size: 1.5em; /* 16px x 1.5em = 24px */
 }
-h3
+.container h3
 {
 	font-size: 1.25em; /* 16px x 1.25em = 20px */
 }
-h4
+.container h4
 {
 	font-size: 1em; /* 16px x 1em = 16px */
 }
-h5
+.container h5
 {
 	font-size: 0.875em; /* 16px x 0.875em = 14px */
 }
-h6
+.container h6
 {
 	font-size: 0.75em; /* 16px x 0.75em = 12px */
 }
-.warning
+.container .warning
 {
 	background-color: #fee;
 	color: #900;
 }
-.success
+.container .success
 {
 	background-color: #efe;
 	color: #090;
 }
-.notice
+.container .notice
 {
 	background-color: #eef;
 	color: #009;
