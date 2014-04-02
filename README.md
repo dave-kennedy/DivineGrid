@@ -1,6 +1,4 @@
 # Divine Grid
-## by David Kennedy
-## http://daveden.wordpress.com
 
 ### What is the Divine Grid?
 
