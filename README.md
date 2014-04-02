@@ -55,7 +55,7 @@ Check out the following files for examples of the Divine Grid in action:
 
 If you want to open these files in your browser, make sure you also download the style.css file from the css directory as well as the image files in the img directory.
 
-Finally, have a gander at the [Divine Template](http://www.github.com/davidkennedy85/DivineTemplate) - a fluid, responsive CSS template based on the Divine Grid.
+Finally, have a gander at the [Divine Template](http://www.github.com/Pajamaman/DivineTemplate) - a fluid, responsive CSS template based on the Divine Grid.
 
 ### What other features does the Divine Grid support?
 
